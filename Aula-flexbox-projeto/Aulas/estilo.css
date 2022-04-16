@@ -1,0 +1,133 @@
+.flex{
+    max-width: 350px;
+    padding: 10px;
+    border: 2px solid rgb(24, 23, 23);
+    display: flex;
+}
+.flex2{
+    max-width: 350px;
+    padding: 10px;
+    border: 2px solid rgb(24, 23, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex3{
+    max-width: 350px;
+    padding: 10px;
+    border: 2px solid rgb(24, 23, 23);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex4{
+    max-width: 350px;
+    padding: 10px;
+    border: 2px solid rgb(24, 23, 23);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.item{
+    background-color: aquamarine;
+    margin: 5px;
+}
+.flex-container-list{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.flex-item-list{
+    background: blue ;
+    height: 60px;
+    width: 60px;
+    line-height: 50px;
+    font-size: 21px;
+    color: azure;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.row-reverse li{
+    background-color: brown;
+    
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.column li{
+    flex-direction: column;
+    color: aqua;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+    background-color: aquamarine;
+    float:right
+}
+.flex-container-wrap{
+    height: 150px;
+    display: flex;
+    border: 2px solid black;
+    max-width: 450px;
+}
+.flex-item-wrap{
+    font-size: 25px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 50px;
+}
+.azul{
+    background-color: cornflowerblue;
+}
+.laranja{
+    background-color: darkorange;
+}
+.roxo{
+    background-color: blueviolet;
+}
+.wrap2{
+    flex-wrap: wrap;
+}
+.wrap3{
+    flex-wrap: wrap-reverse;
+}
+.wrap3reverse{
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+.wrap-column{
+    max-height: 150px;
+    width: 50px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-container-flow{
+    display: flex;
+    border: 2px solid red;
+    flex-flow: row wrap-reverse;
+}
+.flex-container-flow2{
+    display: flex;
+    max-height: 300px;
+    border: 2px solid red;
+    flex-flow: column wrap;
+}
+.item-container-flow{
+    background-color: darksalmon;
+    margin:9px;
+    color: black;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
