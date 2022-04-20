@@ -132,14 +132,36 @@
     line-height: 50px;
 }
 .justify-container{
-    max-width: 400px;
     border:2px solid black;
     margin:0;
     display: flex;
 }
 .justify-item{
-    background-color: forestgreen;
     margin: 5px;
     text-align: center;
     color: white;
+    height:50px;
+    font-size: 18px;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.flex-space{
+    justify-content:space-between;
+}
+.flex-around{
+    justify-content: space-around;
+}
+.flex-center{
+    justify-content: center;
+}
+.column-dir{
+    flex-direction: column;
+    min-height: 500px;
+}
+.max--height{
+    width:60px;
+}
+.max--width{
+    max-width: 500px;
 }
