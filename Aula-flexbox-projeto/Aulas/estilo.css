@@ -167,7 +167,7 @@
 
 }
 .container-align{
-    max-width: 350px;
+    max-width: 450px;
     border:2px solid black;
     display: flex;
     
@@ -175,7 +175,7 @@
 .align-itns{
     margin: 8px;
     text-align: center;
-    flex: 1;
+    /* flex: 1; */
 }
 .flexnumero{
     flex: 1;
@@ -185,4 +185,21 @@
 }
 .scretchl{
     align-items: stretch;
+}
+.endl{
+    align-items: flex-end;
+}
+.topol{
+    align-items: flex-start;
+}
+.basel{
+    align-items:baseline;
+}
+.central{
+    height:300px;
+    justify-content: center;
+}
+.central .tem{
+    flex: 0;
+    padding:20px;
 }
