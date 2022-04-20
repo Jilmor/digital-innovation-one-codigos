@@ -219,3 +219,31 @@
     text-align: center;
     color: white;
 }
+.centercont{
+    align-content: center;
+}
+.spacear-cont{
+    align-content:space-around;
+}
+.container-grow{
+    display: flex;
+    border: 2px solid black;
+    max-width: 500px;
+    margin: 10px;
+}
+.grow-item{
+    background-color:midnightblue;
+    margin:5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.fg-0{
+    flex-grow: 0;
+}
+.fg-1{
+    flex-grow: 1;
+}
+.fg-3{
+    flex-grow: 3;
+}
