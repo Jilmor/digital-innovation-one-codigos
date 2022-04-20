@@ -164,4 +164,25 @@
 }
 .max--width{
     max-width: 500px;
+
+}
+.container-align{
+    max-width: 350px;
+    border:2px solid black;
+    display: flex;
+    
+}
+.align-itns{
+    margin: 8px;
+    text-align: center;
+    flex: 1;
+}
+.flexnumero{
+    flex: 1;
+}
+.centerl{
+    align-items: center;
+}
+.scretchl{
+    align-items: stretch;
 }
