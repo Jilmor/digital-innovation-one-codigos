@@ -54,3 +54,48 @@
 .flex-2{
     flex:2;
 }
+.mtop20{
+    margin-top:20px;
+}
+.item-order{
+    flex: 1;
+    background:brown;
+    color:white;
+    font-size: 22px;
+    text-align:center;
+    margin: 7px;
+}
+.ordr1{
+    order: 1;
+}
+.ordr3{
+    order: 3;
+}
+.item-alself{
+    background:rgb(18, 223, 148);
+    color:white;
+    font-size: 22px;
+    text-align:center;
+    margin: 7px;
+}
+.centerls{
+    align-self: center;
+}
+.f-start-ls{
+    align-self:flex-start;
+}
+.f-end-ls{
+    align-self:flex-end;
+}
+.stret-ls{
+    align-self:stretch;
+}
+.base-ls{
+    align-self:baseline;
+}
+.h200{
+    height: 200px;
+}
+.columm{
+   flex-direction: column;
+}
