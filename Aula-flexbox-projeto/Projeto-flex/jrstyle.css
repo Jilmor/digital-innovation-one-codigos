@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+list-style:none;
+margin:5px;
+padding: 0;
+}
+ul li a{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+.flex-container-jr{
+    display:flex;
+    max-width: 992px;
+    margin:auto;
+    width: 100%;
+}
+header{
+    background-color:#122a52;
+    color:aliceblue;
+    padding: 10px 10px;
+    display: flex;
+    height: 100px;
+    align-items:center;
+}
+.list-itens{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-itens li a{
+    color:aliceblue;
+}
+.menu{
+    justify-content: space-between;
+}
+.apresentação{
+    height:100vh;
+    align-items:center;
+    justify-content: space-between;
+}
+.texto-apre{
+    min-height: 200px;
+}
+.texto-apre h1{
+    color: #122A57;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.texto-apre a{
+    background-color: #122A57;
+    color: aliceblue;
+    text-align: center;
+    border-radius:35px;
+    width: 230px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+#quemsou{
+    justify-content: space-between;
+    align-items: center;
+}
+#quemsou h2{
+    font-size: 34px;
+    color: #122A57;
+    display:flex;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#quemsou h2::before{
+    content: "";
+    height: 70px;
+    width: 10px;
+    margin-right: 7px;
+    background-color: #122A57;
+    position: relative;
+}
+#quemsou p{
+    margin-bottom: 10px;
+    width: 90%;
+}
