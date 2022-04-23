@@ -90,3 +90,8 @@ header{
     margin-bottom: 10px;
     width: 90%;
 }
+#quemsou p:hover{
+   font-size: 120px;
+   color: red;
+   transition:2s;
+}
