@@ -15,6 +15,7 @@ ul li a{
 div img{
     display: block;
     width: 100%;
+    min-width:350px;
 }
 .flex-container-jr{
     display:flex;
@@ -67,6 +68,9 @@ header{
     text-decoration: none;
     margin: 10px 0;
 }
+.menorimg{
+    width:80%;
+}
 #quemsou{
     justify-content: space-between;
     align-items: center;
@@ -90,8 +94,57 @@ header{
     margin-bottom: 10px;
     width: 90%;
 }
-#quemsou p:hover{
+.alerta:Hover{
    font-size: 120px;
    color: red;
    transition:2s;
 }
+.container-externo{
+    background-color: #122A57;
+    width:100%;
+}
+#trabalho{
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 45px;
+}
+#trabalho h2{
+    color: white;
+    font-size:30px;
+    margin-bottom: 15px;
+}
+.list-trab{
+    display: flex;
+    justify-content: space-between;
+}
+.item-trab{
+    text-align: center;
+    
+}
+.item-trab a{
+    width: 100px;
+    background-color:aliceblue;
+    border-radius:35px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    padding:5px;
+    line-height:40px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size:18px;
+    font-weight:700;
+    
+   
+}
+.item-trab p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight:700;
+}
+.item-trab img{
+    width: 65%;
+    margin: auto;
+}
+
